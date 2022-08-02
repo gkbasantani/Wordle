@@ -6,7 +6,7 @@ function App() {
   const [solution, setSolution] = useState(null);
 
   useEffect(() => {
-    console.log(db);
+    // console.log(db);
     const randomSolution =
       db.solutions[Math.floor(Math.random() * db.solutions.length)];
     console.log(randomSolution.word);
